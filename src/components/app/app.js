@@ -4,6 +4,7 @@ import Header from '../header';
 import RandomChar from '../randomChar';
 import ItemList from '../itemList';
 import CharDetails from '../charDetails';
+import Characters from '../pages'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
                         <RandomChar/>
                     </Col>
                 </Row>
+                <Characters/>
                 <Row>
                     <Col md='6'>
                         <ItemList />
