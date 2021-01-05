@@ -2,7 +2,8 @@ import React from 'react';
 import {Col, Row, Container} from 'reactstrap';
 import Header from '../header';
 import RandomChar from '../randomChar';
-import Characters from '../pages'
+import ItemList from '../itemList';
+import CharDetails from '../charDetails';
 
 
 const App = () => {
@@ -17,7 +18,14 @@ const App = () => {
                         <RandomChar/>
                     </Col>
                 </Row>
-                <Characters/>
+                <Row>
+                <Col md='6'>
+                   <ItemList/>
+                </Col>
+                <Col md='6'>
+                    <CharDetails/>
+                </Col>
+            </Row> 
                 
             </Container>
         </>
