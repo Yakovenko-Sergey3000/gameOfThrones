@@ -18,3 +18,17 @@ a:active {
     text-decoration: none;
     color: inherit;
 }
+
+.btn-random {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(2, 2, 161);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
